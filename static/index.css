@@ -21,7 +21,15 @@ p {
 	font-size: 16px;
  }
 
- .dev {
+a {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2vw;
+	color: #476cbb;
+	text-decoration: none;
+}
+
+
+.dev {
  	font-size: 2vw;
  	color: #476cbb;
  	text-decoration: none;
