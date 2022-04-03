@@ -17,10 +17,19 @@
 		body {background-color: green;}
 		h1 {color: white;}
 		p {color: yellow;}
+		a {text-decoration: none; font-family: monospace; color: yellow; font-size: 16px}
 	</style>
 
 	<!-- JS -->
 	<script>
+
+		function clicker(){
+			alert("The author of this page is: CourDevelops")
+		}
+
+		function thisclick(){
+			alert("Here Ya Go")
+		}
 		
 	</script>
 
@@ -30,9 +39,13 @@
 
 	<h1>Head and Meta Page</h1>
 
-	<p>Click Here to get the Author's name</p>
+	<p onclick="clicker()">Click Here to get the Author's name</p>
 
-	<p>Click Here to see an alert</p>
+	<p onclick="thisclick()">Click Here to see an alert</p>
+
+	<p><a href="index.html">Click Here to go back HOME</a></p>
+
+
 
 	<footer>
 			<p>You can <a href="mailto:courdevelops@gmail.com">email me</a></p>
