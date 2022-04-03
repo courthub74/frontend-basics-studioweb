@@ -2,7 +2,7 @@
 
 body {
 	color: #333333;
-	background-color: #FFF;
+	background-color: #bde9e8;
 }
 
 #centerDoc {
@@ -13,6 +13,8 @@ body {
 	margin-left: 235px;
 	width: 80%;
 	top: 0;
+	max-width: 1000px;
+	max-height: 500px;
 }
 
 
@@ -50,12 +52,16 @@ nav a {
 }
 
 footer {
-	background-color: #7f9ed6;
+	font-family: "Lucida Console", monospace;
+	background-color: #476cbb;
 	height: 4vw;
 	color: white;
 }
 
 footer a {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 700;
+	font-size: 2vw;
 	text-decoration: none;
 	color: white;
 }

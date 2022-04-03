@@ -12,6 +12,12 @@ h3 {
 	font-size: 2vw;
 }
 
+h3 {
+	background-color: #476cbb;
+	color: #e4dfdd;
+	width: 500px;
+}
+
 
 p { 
 	width: 80%;
@@ -25,7 +31,10 @@ p {
  }
 
 #list {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 700;
 	text-align: center;
 	color: white;
+	font-size: 2vw;
 }
 
