@@ -29,9 +29,9 @@ ul li {
 ol li {
 	list-style-type: numbers;
 	line-height: 180%;
-	width: 65%;
+	width: 80%;
 	font-family: "Lucida Console", monospace;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 nav {
@@ -41,12 +41,12 @@ nav {
 	width: 210px;
 	height: 60vw;
 	margin: 0;
-	border-right: 2px solid black;
+	border-right: 2px solid darkgrey;
 }
 
 nav a {
 	text-decoration: none;
-	color: white;
+	color: #e4dfdd;
 	font-family: "Lucida Console", monospace;
 	font-size: 18px;
 }
@@ -55,7 +55,7 @@ footer {
 	font-family: "Lucida Console", monospace;
 	background-color: #476cbb;
 	height: 4vw;
-	color: white;
+	color: #e4dfdd;
 }
 
 footer a {
@@ -63,7 +63,7 @@ footer a {
 	font-weight: 700;
 	font-size: 2vw;
 	text-decoration: none;
-	color: white;
+	color: #e4dfdd;
 }
 
 

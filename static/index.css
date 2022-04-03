@@ -3,16 +3,12 @@
 h2 {
 	font-family: 'Shadows Into Light', cursive;
 	color: #476cbb;
-	font-size: 3vw;
-}
-
-h3 {
-	font-family: 'Shadows Into Light', cursive;
-	color: rgb(120, 80, 120);
 	font-size: 2vw;
 }
 
 h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2vw;
 	background-color: #476cbb;
 	color: #e4dfdd;
 	width: 500px;
@@ -22,19 +18,28 @@ h3 {
 p { 
 	width: 80%;
 	font-family: "Lucida Console", monospace;
-	font-size: 18px;
+	font-size: 16px;
+ }
+
+ .dev {
+ 	font-size: 2vw;
+ 	color: #476cbb;
+ 	text-decoration: none;
+ 	font-family: 'Shadows Into Light', cursive;
  }
 
 #shad{
  	font-family: 'Shadows Into Light', cursive;
+ 	font-weight: 500;
  	font-size: 2vw;
+ 	color: #e4dfdd;
  }
 
 #list {
 	font-family: 'Shadows Into Light', cursive;
-	font-weight: 700;
+	font-weight: 500;
 	text-align: center;
-	color: white;
+	color: #e4dfdd;
 	font-size: 2vw;
 }
 
