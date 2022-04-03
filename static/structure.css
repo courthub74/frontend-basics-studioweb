@@ -1,0 +1,64 @@
+/* Tag Selectors */
+
+body {
+	color: #333333;
+	background-color: #FFF;
+}
+
+#centerDoc {
+	position: absolute;
+	z-index: 15;
+	padding: 0 0 20px;  /*top right bottom left*/
+	margin-top: 50px;
+	margin-left: 235px;
+	width: 80%;
+	top: 0;
+}
+
+
+ul li {
+	list-style-type: circle;
+	line-height: 200%;
+	font-family: "Lucida Console", monospace;
+	list-style: none;
+}
+
+
+ol li {
+	list-style-type: numbers;
+	line-height: 180%;
+	width: 65%;
+	font-family: "Lucida Console", monospace;
+	font-size: 18px;
+}
+
+nav {
+	background-color: #476cbb;
+	color: white;
+	z-index: 10;
+	width: 210px;
+	height: 60vw;
+	margin: 0;
+	border-right: 2px solid black;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Console", monospace;
+	font-size: 18px;
+}
+
+footer {
+	background-color: #7f9ed6;
+	height: 4vw;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+
+

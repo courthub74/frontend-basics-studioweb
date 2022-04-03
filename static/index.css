@@ -1,0 +1,31 @@
+/*Extra fonty things*/
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	color: #476cbb;
+	font-size: 3vw;
+}
+
+h3 {
+	font-family: 'Shadows Into Light', cursive;
+	color: rgb(120, 80, 120);
+	font-size: 2vw;
+}
+
+
+p { 
+	width: 80%;
+	font-family: "Lucida Console", monospace;
+	font-size: 18px;
+ }
+
+#shad{
+ 	font-family: 'Shadows Into Light', cursive;
+ 	font-size: 2vw;
+ }
+
+#list {
+	text-align: center;
+	color: white;
+}
+
