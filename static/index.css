@@ -18,7 +18,7 @@ h3 {
 p { 
 	width: 80%;
 	font-family: "Lucida Console", monospace;
-	font-size: 16px;
+	font-size: 14px;
  }
 
 a {
@@ -29,11 +29,11 @@ a {
 }
 
 
-.dev {
+#dev {
  	font-size: 2vw;
- 	color: #476cbb;
  	text-decoration: none;
  	font-family: 'Shadows Into Light', cursive;
+ 	color: #476cbb;
  }
 
 #shad{
@@ -43,6 +43,14 @@ a {
  	color: #e4dfdd;
  }
 
+ul li {
+	list-style-type: circle;
+	line-height: 200%;
+	font-family: "Lucida Console", monospace;
+	list-style: none;
+	padding: 5px;
+}
+
 #list {
 	font-family: 'Shadows Into Light', cursive;
 	font-weight: 500;
@@ -51,11 +59,23 @@ a {
 	font-size: 2vw;
 }
 
+#sidelist a:link, a:visited {
+	background-color: #476cbb;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Console", monospace;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	display: block;
+	width: 200px;
+	transition: margin-bottom .45s ease-in;
+}
+
 #sidelist a:hover {
-	font-family: 'Shadows Into Light', cursive;
-	font-weight: 300;
-	text-align: center;
-	font-size: 2vw;
+	background-color: white;
+	color: #476cbb;
+	margin-bottom: 45px;
 }
 
 
