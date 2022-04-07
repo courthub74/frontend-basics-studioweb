@@ -23,7 +23,7 @@ img {
 
 
 ol li {
-	list-style-type: numbers;
+	list-style-type: square;
 	line-height: 180%;
 	width: 80%;
 	font-family: "Lucida Console", monospace;

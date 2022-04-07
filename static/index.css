@@ -21,12 +21,16 @@ p {
 	font-size: 14px;
  }
 
-a {
+#centerDoc a {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 2vw;
 	color: #476cbb;
 	text-decoration: none;
 }
+
+footer #mail {
+	color: #e4dfdd;
+} 
 
 
 #dev {
@@ -63,7 +67,8 @@ ul li {
 	background-color: #476cbb;
 	text-decoration: none;
 	color: white;
-	font-family: "Lucida Console", monospace;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2vw;
 	padding: 5px;
 	border-radius: 10px;
 	margin-bottom: 10px;
